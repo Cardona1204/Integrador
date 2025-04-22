@@ -3,45 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <title>Información General</title>
-  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Google Fonts: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #fafafa;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .section img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 8px;
+      margin: 0 auto 20px;
+    }
+
+    .text {
+      flex: 1;
+      padding: 10px 20px;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #00796B;
+    }
+
+    .content {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .content ul {
+      padding-left: 20px;
+    }
+
+    .content li {
+      margin-bottom: 5px;
+    }
+
+    @media (min-width: 600px) {
+      .section {
+        flex-wrap: nowrap;
+      }
+
+      .section img {
+        margin: 0;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Tipografia Roboto</h1>
+
+  <h1>Tipografía Roboto</h1>
 
   <div class="section">
-    <img src="/image/benefits.jpg" alt="Beneficios">
+    <img src="../image/benefits.jpg" alt="Beneficios">
     <div class="text">
       <div class="title">Beneficios</div>
       <div class="content">
-        <li>Alta legibilidad</li>
-        <li>Estilo moderno y profesional</li>
-        <li>Diferentes estilos</li>
+        <ul>
+          <li>Alta legibilidad</li>
+          <li>Estilo moderno y profesional</li>
+          <li>Diferentes estilos disponibles</li>
+        </ul>
       </div>
     </div>
   </div>
 
   <div class="section">
-    <img src="/image/robotobot.avif" alt="Usos">
+    <img src="../image/robotobot.avif" alt="Usos">
     <div class="text">
       <div class="title">Usos</div>
       <div class="content">
-        Se usa regularmente en:
-        <li>App moviles</li>
-        <li>Diseño web</li>
-        <li>Design</li>
+        Se utiliza regularmente en:
+        <ul>
+          <li>Apps móviles</li>
+          <li>Diseño web</li>
+          <li>Proyectos de diseño gráfico</li>
+        </ul>
       </div>
     </div>
   </div>
 
   <div class="section">
-    <img src="/image/robotofont.webp" alt="Tipo de letra">
-    <div class="text">
-      <div class="title">Tipo de letra</div>
-      <div class="content">
-        Esta página utiliza la fuente Arial, una opción clara y legible para mejorar la experiencia del lector.
-      </div>
-    </div>
-  </div>
-
-</body>
-</html>
+    <img src="../
